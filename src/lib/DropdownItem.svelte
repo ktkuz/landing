@@ -43,7 +43,7 @@
     </div>
     <div class="subItem">
         <div class="salary">
-            <h4>{salary === '?' : 'по договоренности' : salary + 'р.'}</h4>
+            <h4>{salary === '?' ? 'по договоренности' : salary + 'р.'}</h4>
         </div>
         <div class="buttons">
             <button on:click={goToTelegram} type="button" class="btn">Написать в телегу</button>
