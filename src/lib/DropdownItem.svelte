@@ -46,7 +46,7 @@
             <h4>{salary === '?' ? 'по договоренности' : salary + 'р.'}</h4>
         </div>
         <div class="buttons">
-            <button on:click={goToTelegram} type="button" class="btn">Написать в телегу</button>
+            <button on:click={goToTelegram} type="button" class="btn">Написать в телеграм</button>
             <button on:click={chooseJob} class="btn">Отправить резюме</button>
         </div>
     </div>
