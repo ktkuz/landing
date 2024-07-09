@@ -7,7 +7,7 @@
     export let salary;
 
     function goToTelegram() {
-        window.open("https://t.me/bloommmannn", "_blank");
+        window.open("https://t.me/umotkvs", "_blank");
     }
 		function chooseJob() {
 			document.getElementById('contacts').scrollIntoView({ behavior: 'smooth' });
